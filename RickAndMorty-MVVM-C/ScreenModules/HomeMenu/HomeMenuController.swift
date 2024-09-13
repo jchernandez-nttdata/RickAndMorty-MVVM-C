@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  HomeMenuController.swift
 //  RickAndMorty-MVVM-C
 //
 //  Created by Juan Carlos Hernandez Castillo on 13/09/24.
@@ -7,11 +7,11 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class HomeMenuController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        view.backgroundColor = .systemBackground
     }
 
 
